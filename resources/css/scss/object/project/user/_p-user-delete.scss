@@ -1,0 +1,19 @@
+@use '../../../global/' as g;
+
+.p-user-delete {
+    &__description {
+        margin-top: g.$margin-label-y;
+        font-size: g.$font-size-small;
+    }
+
+    &__submit {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        margin-top: g.$margin-section-y;
+
+        &__delete {
+            margin-left: g.$margin-x;
+        }
+    }
+}

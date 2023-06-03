@@ -1,0 +1,13 @@
+@use '../../global/' as g;
+
+.p-fork {
+    position: fixed;
+    bottom: 0;
+    //right: calc((100vw - g.$max-width) / 4 - calc(100vh * 0.8 * 0.4 / 2));
+    left: calc(100vw - ((100vw - g.$max-width) / 4 - calc(100vh * 0.8 * 0.4 / 2)) - 100vh * 0.8 * 0.4);
+    height: calc(100vh * 0.8);
+
+    @media (max-width: g.$width-pc) {
+        display: none;
+    }
+}

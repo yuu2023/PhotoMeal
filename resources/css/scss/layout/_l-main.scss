@@ -1,0 +1,10 @@
+@use '../global/' as g;
+
+.l-main {
+    width: 100%;
+    min-height: 100vh;
+    // padding: calc(g.$padding-layout-y + g.$height-header) g.$padding-layout-x calc(g.$padding-layout-y + g.$height-footer) g.$padding-layout-x;
+    padding: g.$height-header 0 g.$height-footer 0;
+    // padding: calc(g.$padding-layout-y + g.$height-header) 0 calc(g.$padding-layout-y + g.$height-footer) 0;
+    background-color: g.$color-background;
+}

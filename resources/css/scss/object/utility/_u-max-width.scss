@@ -1,0 +1,5 @@
+@use '../../global/' as g;
+
+.u-max-width {
+    max-width: g.$max-width;
+}

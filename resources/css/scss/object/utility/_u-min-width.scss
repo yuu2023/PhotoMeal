@@ -1,0 +1,5 @@
+@use '../../global/' as g;
+
+.u-min-width {
+    min-width: g.$min-width;
+}

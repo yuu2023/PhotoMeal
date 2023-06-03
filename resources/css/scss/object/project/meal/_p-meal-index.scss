@@ -1,0 +1,25 @@
+@use '../../../global/' as g;
+
+.p-meal-index {
+    padding-top: g.$padding-wrapper-y;
+    padding-bottom: g.$padding-wrapper-y;
+
+    &__grid {
+        margin-top: g.$margin-section-y;
+    }
+
+    &__detail {
+        margin-top: g.$margin-section-y;
+    }
+
+    &__map {
+        margin-top: g.$margin-section-y;
+    }
+
+    &__pages:has(> nav) {
+        margin-top: g.$margin-section-y;
+        padding-left: g.$padding-wrapper-x;
+        padding-right: g.$padding-wrapper-x;
+        background-color: g.$color-background;
+    }
+}

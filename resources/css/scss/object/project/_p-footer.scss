@@ -1,0 +1,26 @@
+@use '../../global/' as g;
+
+.p-footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    font-size: g.$font-size-tiny;
+
+    &__link {
+        &__icon {
+            width: 100px;
+
+            &__img {
+                display: block;
+                margin: 0 auto;
+                width: g.$width-parts;
+            }
+
+            &__text {
+                text-align: center;
+                margin-top: g.$margin-label-y;
+            }
+        }
+    }
+}

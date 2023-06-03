@@ -1,0 +1,10 @@
+@use '../global/' as g;
+
+.l-container {
+    position: relative;
+    max-width: g.$max-width;
+    min-width: g.$min-width;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: g.$color-background;
+}

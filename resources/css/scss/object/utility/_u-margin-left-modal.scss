@@ -1,0 +1,5 @@
+@use '../../global/' as g;
+
+.u-margin-left-modal {
+    margin-left: calc((100% - g.$max-width) / 2 );
+}

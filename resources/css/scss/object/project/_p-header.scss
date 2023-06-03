@@ -1,0 +1,29 @@
+@use '../../global/' as g;
+
+.p-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__logo {
+        display: flex;
+        align-items: center;
+
+        &__img {
+            width: g.$width-parts-big;
+        }
+
+        &__text {
+            margin-left: g.$margin-x;
+        }
+    }
+
+    &__user-icon {
+        width: g.$width-icon;
+        height: g.$height-icon;
+        border: g.$border-width solid g.$color-border;
+        border-radius: g.$border-radius-circle;
+        background-color: g.$color-background;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,92 @@
+@use '../../../global/' as g;
+
+
+.p-comment-index {
+    padding-bottom: g.$padding-wrapper-y;
+
+    &__header-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: g.$padding-layout-y g.$padding-layout-x;
+        border-top: g.$border-width solid g.$color-border;
+        border-bottom: g.$border-width solid g.$color-border;
+
+        &__create {
+            width: g.$width-parts;
+            cursor: pointer;
+        }
+    }
+
+    &__none {
+        text-align: center;
+        padding: g.$padding-layout-y g.$padding-layout-x;
+        border-bottom: g.$border-width solid g.$color-border;
+    }
+
+    &__body {
+        padding: g.$padding-layout-y g.$padding-layout-x;
+        border-bottom: g.$border-width solid g.$color-border;
+
+        &__user-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            line-height: 0;
+
+            &__link {
+                display: inline-flex;
+                align-items: center;
+
+                &__img {
+                    width: g.$width-icon;
+                    height: g.$height-icon;
+                    margin-right: g.$margin-label-x;
+                    border: g.$border-width solid g.$color-border;
+                    border-radius: g.$border-radius-circle;
+                    background-color: g.$color-background;
+                }
+            }
+        }
+
+        &__comment-row {
+            display: flex;
+            justify-content: space-between;
+
+            &__text {
+                width: calc(100vw - g.$width-parts - g.$padding-layout-x * 2 - 1em + 1px);
+                max-width: calc(g.$max-width - g.$width-parts - g.$padding-layout-x * 2 - 1em + 1px);
+                min-width: calc(g.$min-width - g.$width-parts - g.$padding-layout-x * 2 - 1em + 1px);
+                height: 1em * g.$line-height * 2;
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 2;
+                overflow: hidden;
+                margin-top: g.$margin-y;
+            }
+
+            &__link {
+                align-self: center;
+
+                &__img {
+                    width: g.$width-parts;
+                }
+            }
+        }
+    }
+
+    &__pages:has(> nav) {
+        margin-top: g.$margin-section-y;
+        padding-left: g.$padding-wrapper-x;
+        padding-right: g.$padding-wrapper-x;
+        background-color: g.$color-background;
+    }
+
+    &__back {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: g.$margin-section-y;
+        padding-left: g.$padding-wrapper-x;
+        padding-right: g.$padding-wrapper-x;
+    }
+}

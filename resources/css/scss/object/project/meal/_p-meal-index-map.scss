@@ -1,0 +1,11 @@
+@use '../../../global/' as g;
+
+.p-meal-index-map {
+    &__map {
+        height: calc(100vh - g.$height-header - g.$height-footer - 151px - 57.5px - g.$margin-section-y * 2);
+    }
+
+    .leaflet-popup-content {
+        width: initial !important;
+    }
+}

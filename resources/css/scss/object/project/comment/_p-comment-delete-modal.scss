@@ -1,0 +1,23 @@
+@use '../../../global/' as g;
+
+.p-comment-delete-modal {
+    padding: g.$padding-modal-y g.$padding-modal-x;
+
+    &__form {
+        &__description {
+            margin-top: g.$margin-label-y;
+            font-size: g.$font-size-small;
+        }
+
+        &__buttons {
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            margin-top: g.$margin-section-y;
+
+            &__submit {
+                margin-left: g.$margin-x;
+            }
+        }
+    }
+}

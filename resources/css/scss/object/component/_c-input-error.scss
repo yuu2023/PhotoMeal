@@ -1,0 +1,5 @@
+@use '../../global/' as g;
+
+.c-input-error {
+    color: g.$color-text-error-message;
+}

@@ -1,0 +1,42 @@
+@use '../global/' as g;
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap');
+
+html {
+    font-size: g.$font-size;
+    scrollbar-gutter: stable;
+}
+
+body {
+    background-color: g.$color-background-blank;
+    color: g.$color-text;
+    line-height: g.$line-height;
+    font-family: 'Kiwi Maru', serif;
+    overflow-y: scroll;
+}
+
+h1 {
+    font-size: g.$font-size-huge;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: g.$font-size-big;
+    font-weight: 600;
+}
+
+h3 {
+    font-weight: 600;
+}
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+input:disabled {
+    opacity: 0.7;
+}
+
+select {
+    padding: g.$padding-input-y g.$padding-input-x;
+}

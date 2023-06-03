@@ -1,0 +1,37 @@
+@use '../../../global/' as g;
+
+.p-user-delete-modal {
+    padding: g.$padding-modal-y g.$padding-modal-x;
+
+    &__form {
+        &__description {
+            margin-top: g.$margin-label-y;
+            font-size: g.$font-size-small;
+        }
+
+        &__password {
+            margin-top: g.$margin-section-y;
+
+            &__input {
+                display: block;
+                width: 100%;
+                margin-top: g.$margin-label-y;
+            }
+
+            &__error {
+                margin-top: g.$margin-y;
+            }
+        }
+
+        &__submit {
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            margin-top: g.$margin-section-y;
+
+            &__delete {
+                margin-left: g.$margin-x;
+            }
+        }
+    }
+}

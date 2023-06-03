@@ -1,0 +1,124 @@
+@use '../../../global/' as g;
+
+.p-meal-index-common {
+    &__form {
+        &__search {
+            position: relative;
+
+            &__input {
+                display: block;
+                width: 100%;
+                padding-left: calc(g.$padding-input-x * 2 + g.$width-parts);
+
+                &::placeholder {
+                    text-align: center;
+                }
+            }
+
+            &__label {
+                &__img {
+                    position: absolute;
+                    top: calc((g.$font-size * g.$line-height + g.$padding-input-y * 2 + g.$border-width * 2 - g.$width-parts) / 2);
+                    left: calc(g.$padding-input-x + g.$border-width);
+                    width: g.$width-parts;
+                }
+            }
+        }
+
+        &__select {
+            display: flex;
+            gap: 0 g.$margin-x;
+            margin-top: g.$margin-y;
+
+            &__filter {
+                flex: 1;
+                position: relative;
+
+                &__input {
+                    display: block;
+                    width: 100%;
+                    padding-left: calc(g.$padding-input-x * 2 + g.$width-parts);
+                }
+
+                &__label {
+                    &__img {
+                        position: absolute;
+                        top: calc((g.$font-size * g.$line-height + g.$padding-input-y * 2 + g.$border-width * 2 - g.$width-parts) / 2);
+                        left: calc(g.$padding-input-x + g.$border-width);
+                        width: g.$width-parts;
+                    }
+                }
+            }
+
+            &__sort {
+                flex: 1;
+                position: relative;
+
+                &__input {
+                    display: block;
+                    width: 100%;
+                    padding-left: calc(g.$padding-input-x * 2 + g.$width-parts);
+                }
+
+                &__label {
+                    &__img {
+                        position: absolute;
+                        top: calc((g.$font-size * g.$line-height + g.$padding-input-y * 2 + g.$border-width * 2 - g.$width-parts) / 2);
+                        left: calc(g.$padding-input-x + g.$border-width);
+                        width: g.$width-parts;
+                    }
+                }
+            }
+        }
+    }
+
+    &__mode-and-create {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: g.$margin-y;
+
+        &__mode {
+            display: flex;
+            &__grid {
+                padding: calc((g.$font-size * g.$line-height + g.$padding-input-y * 2 + g.$border-width * 2 - g.$width-parts) / 2 - g.$border-width) g.$padding-input-x + g.$border-width;
+                border-top: g.$border-width solid g.$color-border;
+                border-bottom: g.$border-width solid g.$color-border;
+                border-left: g.$border-width solid g.$color-border;
+                border-radius: g.$border-radius 0 0 g.$border-radius;
+
+                &__img {
+                    width: g.$width-parts;
+                }
+            }
+
+            &__detail {
+                padding: calc((g.$font-size * g.$line-height + g.$padding-input-y * 2 + g.$border-width * 2 - g.$width-parts) / 2 - g.$border-width) g.$padding-input-x + g.$border-width;
+                border: g.$border-width solid g.$color-border;
+
+                &__img {
+                    width: g.$width-parts;
+                }
+            }
+
+            &__map {
+                padding: calc((g.$font-size * g.$line-height + g.$padding-input-y * 2 + g.$border-width * 2 - g.$width-parts) / 2 - g.$border-width) g.$padding-input-x + g.$border-width;
+                border-top: g.$border-width solid g.$color-border;
+                border-right: g.$border-width solid g.$color-border;
+                border-bottom: g.$border-width solid g.$color-border;
+                border-radius: 0 g.$border-radius g.$border-radius 0;
+
+                &__img {
+                    width: g.$width-parts;
+                }
+            }
+        }
+
+        &__create {
+            &__img {
+                width: g.$width-parts-big;
+                cursor: pointer;
+            }
+        }
+    }
+}

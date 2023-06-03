@@ -1,0 +1,10 @@
+@use '../../global/' as g;
+
+.c-danger-button {
+    display: inline-flex;
+    align-items: center;
+    padding: g.$padding-button-y g.$padding-button-x;
+    border-radius: g.$border-radius;
+    background-color: g.$color-button-caution;
+    color: g.$color-text-reversal;
+}

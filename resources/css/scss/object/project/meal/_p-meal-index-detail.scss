@@ -1,0 +1,131 @@
+@use '../../../global/' as g;
+
+.p-meal-index-detail {
+    &__meal {
+        display: flex;
+        border-bottom: g.$border-width solid g.$color-border;
+
+        &:first-of-type {
+            border-top: g.$border-width solid g.$color-border;
+        }
+
+        &__photo {
+            &__img {
+                flex: 1 0 auto;
+                width: g.$width-photo;
+                min-width: g.$width-photo;
+                height: 100%;
+            }
+        }
+
+        &__detail {
+            flex: auto;
+            padding: g.$padding-layout-y 0 g.$padding-layout-y g.$padding-layout-x;
+
+            &__parts {
+                display: flex;
+                justify-content: end;
+
+                &__favorite {
+                    display: flex;
+                    align-items: flex-end;
+
+                    &__img {
+                        width: g.$width-parts;
+                        margin-right: g.$margin-label-x;
+                        cursor: pointer;
+                    }
+
+                    margin-right: g.$margin-x;
+                }
+
+                &__good {
+                    display: flex;
+                    align-items: flex-end;
+
+                    &__img {
+                        width: g.$width-parts;
+                        margin-right: g.$margin-label-x;
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            &__body-row {
+                display: flex;
+                justify-content: space-between;
+
+                &__body {
+                    &__title {
+                        width: calc(100vw - g.$width-photo - g.$width-parts - g.$padding-wrapper-x * 2 - g.$padding-layout-x - g.$margin-label-x - 1em + 1px);
+                        max-width: calc(g.$max-width - g.$width-photo - g.$width-parts - g.$padding-wrapper-x * 2 - g.$padding-layout-x - g.$margin-label-x - 1em + 1px);
+                        min-width: calc(g.$min-width - g.$width-photo - g.$width-parts - g.$padding-wrapper-x * 2 - g.$padding-layout-x - g.$margin-label-x - 1em + 1px);
+                        white-space: nowrap;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        margin-top: g.$margin-y;
+                        font-weight: 600;
+                    }
+
+                    &__introduction {
+                        width: calc(100vw - g.$width-photo - g.$width-parts - g.$padding-wrapper-x * 2 - g.$padding-layout-x - g.$margin-label-x - 1em + 1px);
+                        max-width: calc(g.$max-width - g.$width-photo - g.$width-parts - g.$padding-wrapper-x * 2 - g.$padding-layout-x - g.$margin-label-x - 1em + 1px);
+                        min-width: calc(g.$min-width - g.$width-photo - g.$width-parts - g.$padding-wrapper-x * 2 - g.$padding-layout-x - g.$margin-label-x - 1em + 1px);
+                        height: 1em * g.$line-height * 2;
+                        display: -webkit-box;
+                        -webkit-box-orient: vertical;
+                        -webkit-line-clamp: 2;
+                        overflow: hidden;
+                        margin-top: g.$margin-y;
+                    }
+
+                    &__area {
+                        width: calc(100vw - g.$width-photo - g.$width-parts - g.$padding-wrapper-x * 2 - g.$padding-layout-x - g.$margin-label-x - 1em + 1px);
+                        max-width: calc(g.$max-width - g.$width-photo - g.$width-parts - g.$padding-wrapper-x * 2 - g.$padding-layout-x - g.$margin-label-x - 1em + 1px);
+                        min-width: calc(g.$min-width - g.$width-photo - g.$width-parts - g.$padding-wrapper-x * 2 - g.$padding-layout-x - g.$margin-label-x - 1em + 1px);
+                        height: 1em * g.$line-height;
+                        white-space: nowrap;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        margin-top: g.$margin-y;
+                    }
+
+                    &__owner {
+                        display: flex;
+                        align-items: center;
+                        margin-top: g.$margin-y;
+
+                        &__img {
+                            width: g.$width-icon;
+                            height: g.$height-icon;
+                            margin-right: g.$margin-label-x;
+                            border: g.$border-width solid g.$color-border;
+                            border-radius: g.$border-radius-circle;
+                            background-color: g.$color-background;
+                        }
+
+                        &__name {
+                            width: calc(100vw - g.$width-photo - g.$width-icon - g.$margin-label-x - g.$width-parts - g.$padding-wrapper-x * 2 - g.$padding-layout-x - g.$margin-label-x - 1em + 1px);
+                            max-width: calc(g.$max-width - g.$width-photo - g.$width-icon - g.$margin-label-x - g.$width-parts - g.$padding-wrapper-x * 2 - g.$padding-layout-x - g.$margin-label-x - 1em + 1px);
+                            min-width: calc(g.$min-width - g.$width-photo - g.$width-icon - g.$margin-label-x - g.$width-parts - g.$padding-wrapper-x * 2 - g.$padding-layout-x - g.$margin-label-x - 1em + 1px);
+                            // width: calc(100vw - g.$width-photo - g.$width-parts - g.$padding-wrapper-x * 2 - g.$padding-layout-x - g.$margin-label-x - 1em + 1px);
+                            // max-width: calc(g.$max-width - g.$width-photo - g.$width-parts - g.$padding-wrapper-x * 2 - g.$padding-layout-x - g.$margin-label-x - 1em + 1px);
+                            // min-width: calc(g.$min-width - g.$width-photo - g.$width-parts - g.$padding-wrapper-x * 2 - g.$padding-layout-x - g.$margin-label-x - 1em + 1px);
+                            white-space: nowrap;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                        }
+                    }
+                }
+
+                &__link {
+                    align-self: center;
+
+                    &__img {
+                        width: g.$width-parts;
+                    }
+                }
+            }
+        }
+    }
+}

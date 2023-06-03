@@ -1,0 +1,6 @@
+@use '../global/' as g;
+
+.l-wrapper {
+    padding: g.$padding-wrapper-y g.$padding-wrapper-x;
+    background-color: g.$color-background;
+}

@@ -1,0 +1,239 @@
+@use '../../../global/' as g;
+
+.p-user-register {
+    &__logo {
+        text-align: center;
+
+        &__img {
+            display: block;
+            width: g.$width-parts-huge;
+            margin: 0 auto;
+        }
+
+        &__text {
+            margin-top: g.$margin-y;
+            font-size: g.$font-size-logo-main;
+        }
+    }
+
+    &__form {
+        margin-top: g.$margin-section-y;
+
+        &__name {
+            &__input {
+                display: block;
+                width: 100%;
+                margin-top: g.$margin-label-y;
+            }
+
+            &__error {
+                margin-top: g.$margin-y;
+            }
+        }
+
+        &__introduction {
+            margin-top: g.$margin-section-small-y;
+
+            &__input {
+                display: block;
+                width: 100%;
+                margin-top: g.$margin-label-y;
+            }
+
+            &__error {
+                margin-top: g.$margin-y;
+            }
+        }
+
+        &__icon {
+            margin-top: g.$margin-section-y;
+
+            &__input {
+                display: none;
+            }
+
+            &__change-flag {
+                display: none;
+            }
+
+            &__body {
+                display: block;
+                width: g.$width-icon-huge;
+
+                &__create {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: g.$width-icon-huge;
+                    height: g.$height-icon-huge;
+                    margin-top: g.$margin-label-y;
+                    border: g.$border-width solid g.$color-border;
+                    border-radius: g.$border-radius-circle;
+                    background-color: g.$color-background;
+                    cursor: pointer;
+
+                    &__img {
+                        width: g.$width-parts;
+                    }
+                }
+
+                &__img {
+                    display: none;
+                    width: g.$width-icon-huge;
+                    height: g.$height-icon-huge;
+                    margin-top: g.$margin-label-y;
+                    border: g.$border-width solid g.$color-border;
+                    border-radius: g.$border-radius-circle;
+                    background-color: g.$color-background;
+                    cursor: pointer;
+                }
+            }
+
+            &__error {
+                margin-top: g.$margin-y;
+            }
+
+            &__js-error {
+                margin-top: g.$margin-y;
+                display: none;
+            }
+        }
+
+        &__area {
+            margin-top: g.$margin-section-y;
+
+            &__noto {
+                margin-top: g.$margin-label-y;
+                color: g.$color-text-noto;
+                font-size: g.$font-size-small;
+            }
+
+            &__input {
+                display: block;
+                width: 100%;
+            }
+
+            &__error {
+                margin-top: g.$margin-y;
+            }
+
+            &__search {
+                margin-top: g.$margin-y;
+
+                &__outer {
+                    position: relative;
+
+                    &__input {
+                        display: block;
+                        width: 100%;
+                        padding-left: calc(g.$padding-input-x * 2 + g.$width-parts);
+
+                        &::placeholder {
+                            text-align: center;
+                        }
+                    }
+
+                    &__label {
+                        &__img {
+                            position: absolute;
+                            top: calc((g.$font-size * g.$line-height + g.$padding-input-y * 2 + g.$border-width * 2 - g.$width-parts) / 2);
+                            left: calc(g.$padding-input-x + g.$border-width);
+                            width: g.$width-parts;
+                        }
+                    }
+                }
+
+                &__error {
+                    margin-top: g.$margin-y;
+                }
+            }
+
+            &__not-register {
+                display: inline-block;
+                margin-top: g.$margin-y;
+
+                &__label {
+                    display: flex;
+                    align-items: center;
+                    &__text {
+                        margin-left: g.$margin-label-x;
+                    }
+                }
+
+                &__caution {
+                    display: none;
+                    margin-top: g.$margin-label-y;
+                    color: g.$color-text-caution;
+                    font-size: g.$font-size-small;
+                }
+            }
+
+            &__visibility {
+                margin-top: g.$margin-section-small-y;
+
+                &__input {
+                    display: block;
+                    width: 100%;
+                    margin-top: g.$margin-label-y;;
+                }
+
+                &__error {
+                    margin-top: g.$margin-y;
+                }
+            }
+        }
+
+        &__email {
+            margin-top: g.$margin-section-y;
+
+            &__input {
+                display: block;
+                width: 100%;
+                margin-top: g.$margin-label-y;
+            }
+
+            &__error {
+                margin-top: g.$margin-y;
+            }
+        }
+
+        &__password {
+            margin-top: g.$margin-section-small-y;
+
+            &__input {
+                display: block;
+                width: 100%;
+                margin-top: g.$margin-label-y;
+            }
+
+            &__error {
+                margin-top: g.$margin-y;
+            }
+        }
+
+        &__password-confirmation {
+            margin-top: g.$margin-section-small-y;
+
+            &__input {
+                display: block;
+                width: 100%;
+                margin-top: g.$margin-label-y;
+            }
+
+            &__error {
+                margin-top: g.$margin-y;
+            }
+        }
+
+        &__submit {
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            margin-top: g.$margin-section-y;
+
+            &__register {
+                margin-left: g.$margin-x;
+            }
+        }
+    }
+}

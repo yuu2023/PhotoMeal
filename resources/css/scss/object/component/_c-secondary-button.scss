@@ -1,0 +1,11 @@
+@use '../../global/' as g;
+
+.c-secondary-button {
+    display: inline-flex;
+    align-items: center;
+    padding: g.$padding-button-y g.$padding-button-x;
+    border: g.$border-width solid g.$color-border;
+    border-radius: g.$border-radius;
+    background-color: g.$color-button-reversal;
+    color: g.$color-text;
+}

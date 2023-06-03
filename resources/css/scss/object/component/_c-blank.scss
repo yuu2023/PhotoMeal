@@ -1,0 +1,7 @@
+@use '../../global/' as g;
+
+.c-blank {
+    width: 100%;
+    height: g.$margin-section-y;
+    background-color: g.$color-background-blank;
+}

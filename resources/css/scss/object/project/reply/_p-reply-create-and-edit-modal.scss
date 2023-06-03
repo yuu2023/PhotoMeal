@@ -1,0 +1,40 @@
+@use '../../../global/' as g;
+
+.p-reply-create-and-edit-modal {
+    padding: g.$padding-modal-y g.$padding-modal-x;
+
+    &__form {
+        &__text {
+            margin-top: g.$margin-section-y;
+
+            &__input {
+                display: block;
+                width: 100%;
+                margin-top: g.$margin-label-y;
+            }
+
+            &__error {
+                margin-top: g.$margin-y;
+            }
+
+            &__input-old {
+                display: none;
+            }
+        }
+
+        &__is-submit {
+            display: none;
+        }
+
+        &__buttons {
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            margin-top: g.$margin-section-y;
+
+            &__submit {
+                margin-left: g.$margin-x;
+            }
+        }
+    }
+}

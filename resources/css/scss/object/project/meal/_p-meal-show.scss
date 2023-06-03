@@ -1,0 +1,238 @@
+@use '../../../global/' as g;
+
+.p-meal-show {
+    &__meal {
+        &__parts {
+            display: flex;
+            justify-content: end;
+            align-items: flex-end;
+            margin-top: g.$margin-y;
+
+            &__create {
+                &__img {
+                    width: g.$width-parts;
+                    cursor: pointer;
+                }
+
+                margin-right: g.$margin-x;
+            }
+
+            &__delete {
+                &__img {
+                    width: g.$width-parts;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        &__create-date-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            margin-top: g.$margin-y;
+
+            &__parts {
+                display: flex;
+
+                &__favorite {
+                    display: flex;
+                    align-items: flex-end;
+
+                    &__img {
+                        width: g.$width-parts;
+                        margin-right: g.$margin-label-x;
+                        cursor: pointer;
+                    }
+
+                    margin-right: g.$margin-x;
+                }
+
+                &__good {
+                    display: flex;
+                    align-items: flex-end;
+
+                    &__img {
+                        width: g.$width-parts;
+                        margin-right: g.$margin-label-x;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+
+        &__meal {
+            display: block;
+            position: relative;
+            margin-top: g.$margin-y;
+
+            &::before {
+                content: "";
+                display: block;
+                padding-top: 100%;
+            }
+
+            &__img {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                object-fit: cover;
+            }
+        }
+
+        &__add-to-menu-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            margin-top: g.$margin-y;
+
+            &__ate-date {
+                display: flex;
+                align-items: flex-end;
+
+                &__string {
+                    margin-right: g.$margin-label-x;
+                }
+            }
+        }
+    }
+
+    &__owner {
+        margin-top: g.$margin-section-y;
+
+        &__owner-row {
+            line-height: 0;
+
+            &__link {
+                display: inline-flex;
+                align-items: center;
+
+                &__img {
+                    width: g.$width-icon;
+                    height: g.$height-icon;
+                    margin-right: g.$margin-label-x;
+                    border: g.$border-width solid g.$color-border;
+                    border-radius: g.$border-radius-circle;
+                    background-color: g.$color-background;
+                }
+            }
+        }
+
+        &__introduction {
+            margin-top: g.$margin-y;
+        }
+    }
+
+    &__shop {
+        margin-top: g.$margin-section-y;
+
+        &__table {
+            margin-top: g.$margin-y;
+
+            &__tr {
+                &__th {
+                    width: 6em;
+                }
+            }
+
+            &__tr + &__tr {
+                .p-meal-show__shop__table__tr__th , .p-meal-show__shop__table__tr__td {
+                    padding-top: g.$margin-y;
+                }
+            }
+        }
+    }
+
+    &__comment {
+        padding-bottom: g.$padding-wrapper-y;
+
+        &__header-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: g.$padding-layout-y g.$padding-layout-x;
+            border-top: g.$border-width solid g.$color-border;
+            border-bottom: g.$border-width solid g.$color-border;
+
+            &__create {
+                width: g.$width-parts;
+                cursor: pointer;
+            }
+        }
+
+        &__none {
+            text-align: center;
+            padding: g.$padding-layout-y g.$padding-layout-x;
+            border-bottom: g.$border-width solid g.$color-border;
+        }
+
+        &__more {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            padding: g.$padding-layout-y g.$padding-layout-x;
+            border-bottom: g.$border-width solid g.$color-border;
+
+            &__link {
+                position: absolute;
+                right: g.$padding-layout-x;
+
+                &__img {
+                    width: g.$width-parts;
+                }
+            }
+        }
+
+        &__body {
+            padding: g.$padding-layout-y g.$padding-layout-x;
+            border-bottom: g.$border-width solid g.$color-border;
+
+            &__user-row {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                line-height: 0;
+
+                &__link {
+                    display: inline-flex;
+                    align-items: center;
+
+                    &__img {
+                        width: g.$width-icon;
+                        height: g.$height-icon;
+                        margin-right: g.$margin-label-x;
+                        border: g.$border-width solid g.$color-border;
+                        border-radius: g.$border-radius-circle;
+                        background-color: g.$color-background;
+                    }
+                }
+            }
+
+            &__comment-row {
+                display: flex;
+                justify-content: space-between;
+
+                &__text {
+                    width: calc(100vw - g.$width-parts - g.$padding-layout-x * 2 - 1em + 1px);
+                    max-width: calc(g.$max-width - g.$width-parts - g.$padding-layout-x * 2 - 1em + 1px);
+                    min-width: calc(g.$min-width - g.$width-parts - g.$padding-layout-x * 2 - 1em + 1px);
+                    height: 1em * g.$line-height * 2;
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    -webkit-line-clamp: 2;
+                    overflow: hidden;
+                    margin-top: g.$margin-y;
+                }
+
+                &__link {
+                    align-self: center;
+
+                    &__img {
+                        width: g.$width-parts;
+                    }
+                }
+            }
+        }
+    }
+}

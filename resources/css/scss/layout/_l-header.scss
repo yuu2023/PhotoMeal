@@ -1,0 +1,14 @@
+@use '../global/' as g;
+
+.l-header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    max-width: g.$max-width;
+    min-width: g.$min-width;
+    height: g.$height-header;
+    padding: g.$padding-layout-y g.$padding-layout-x;
+    border: g.$border-width solid g.$color-border-nav;
+    background-color: g.$color-background-nav;
+}

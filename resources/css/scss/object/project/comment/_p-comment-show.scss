@@ -1,0 +1,156 @@
+@use '../../../global/' as g;
+
+.p-comment-show {
+    padding-bottom: g.$padding-wrapper-y;
+
+    &__comment {
+        &__header {
+            padding: g.$padding-layout-y g.$padding-layout-x;
+            border-top: g.$border-width solid g.$color-border;
+            border-bottom: g.$border-width solid g.$color-border;
+        }
+
+        &__body {
+            padding: g.$padding-layout-y g.$padding-layout-x;
+            border-bottom: g.$border-width solid g.$color-border;
+
+            &__user-row {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                line-height: 0;
+
+                &__link {
+                    display: inline-flex;
+                    align-items: center;
+
+                    &__img {
+                        width: g.$width-icon;
+                        height: g.$height-icon;
+                        margin-right: g.$margin-label-x;
+                        border: g.$border-width solid g.$color-border;
+                        border-radius: g.$border-radius-circle;
+                        background-color: g.$color-background;
+                    }
+                }
+
+                &__parts {
+                    display: flex;
+                    justify-content: end;
+                    align-items: flex-end;
+                    margin-top: g.$margin-y;
+
+                    &__create {
+                        &__img {
+                            width: g.$width-parts;
+                            cursor: pointer;
+                        }
+
+                        margin-right: g.$margin-x;
+                    }
+
+                    &__delete {
+                        &__img {
+                            width: g.$width-parts;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+
+            &__text {
+                margin-top: g.$margin-y;
+            }
+        }
+    }
+
+    &__reply {
+        &__header-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: g.$padding-layout-y g.$padding-layout-x;
+
+            border-bottom: g.$border-width solid g.$color-border;
+
+            &__create {
+                width: g.$width-parts;
+                cursor: pointer;
+            }
+        }
+
+        &__none {
+            text-align: center;
+            padding: g.$padding-layout-y g.$padding-layout-x;
+            border-bottom: g.$border-width solid g.$color-border;
+        }
+
+        &__body {
+            padding: g.$padding-layout-y g.$padding-layout-x;
+            border-bottom: g.$border-width solid g.$color-border;
+
+            &__user-row {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                line-height: 0;
+
+                &__link {
+                    display: inline-flex;
+                    align-items: center;
+
+                    &__img {
+                        width: g.$width-icon;
+                        height: g.$height-icon;
+                        margin-right: g.$margin-label-x;
+                        border: g.$border-width solid g.$color-border;
+                        border-radius: g.$border-radius-circle;
+                        background-color: g.$color-background;
+                    }
+                }
+
+                &__parts {
+                    display: flex;
+                    justify-content: end;
+                    align-items: flex-end;
+                    margin-top: g.$margin-y;
+
+                    &__create {
+                        &__img {
+                            width: g.$width-parts;
+                            cursor: pointer;
+                        }
+
+                        margin-right: g.$margin-x;
+                    }
+
+                    &__delete {
+                        &__img {
+                            width: g.$width-parts;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+
+            &__text {
+                margin-top: g.$margin-y;
+            }
+        }
+
+        &__pages:has(> nav) {
+            margin-top: g.$margin-section-y;
+            padding-left: g.$padding-wrapper-x;
+            padding-right: g.$padding-wrapper-x;
+            background-color: g.$color-background;
+        }
+    }
+
+    &__back {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: g.$margin-section-y;
+        padding-left: g.$padding-wrapper-x;
+        padding-right: g.$padding-wrapper-x;
+    }
+}

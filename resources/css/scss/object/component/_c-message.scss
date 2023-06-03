@@ -1,0 +1,32 @@
+@use '../../global/' as g;
+
+.c-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: calc(g.$height-message * -1);
+    z-index: 2;
+    width: 100%;
+    max-width: g.$max-width;
+    min-width: g.$min-width;
+    height: g.$height-message;
+    padding: g.$padding-layout-y g.$padding-layout-x;
+    border: g.$border-width solid g.$color-border-message;
+    background-color: g.$color-background-message;
+    color: g.$color-text-message;
+    animation: slideIn 2s cubic-bezier(0.25, 1, 0.5, 1) 2 alternate;
+}
+
+@keyframes slideIn {
+    0% {
+      transform: translateY(0);
+      opacity: 0;
+    }
+    80%,100% {
+      transform: translateY(g.$height-message);
+    }
+    40%,100% {
+      opacity: 1;
+    }
+}

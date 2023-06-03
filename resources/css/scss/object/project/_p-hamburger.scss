@@ -1,0 +1,59 @@
+@use '../../global/' as g;
+
+.p-hamburger {
+    height: 100vh;
+    padding: g.$padding-modal-y g.$padding-modal-x;
+
+    &__close {
+        width: g.$width-parts;
+        margin-left: auto;
+        cursor: pointer;
+    }
+
+    &__items {
+        display: flex;
+        flex-flow: column;
+
+        &__mypage {
+            margin-top: g.$margin-section-y;
+        }
+
+        &__account {
+            margin-top: g.$margin-section-y;
+        }
+
+        &__logout {
+            margin-top: g.$margin-section-y;
+        }
+    }
+
+    &__description {
+        margin-top: g.$margin-label-y;
+        font-size: g.$font-size-small;
+    }
+
+    &__password {
+        margin-top: g.$margin-section-y;
+
+        &__input {
+            display: block;
+            width: 100%;
+            margin-top: g.$margin-label-y;
+        }
+
+        &__error {
+            margin-top: g.$margin-y;
+        }
+    }
+
+    &__submit {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        margin-top: g.$margin-section-y;
+
+        &__delete {
+            margin-left: g.$margin-x;
+        }
+    }
+}
