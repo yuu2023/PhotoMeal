@@ -138,7 +138,7 @@ class Meal extends Model
             });
         });
 
-        return $query->with(['user', 'shop'])->paginate(9);
+        return $query->distinct()->with(['user', 'shop'])->paginate(9);
     }
 
     public static function myStore(&$validated, User $requestUser)
