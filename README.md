@@ -23,7 +23,8 @@
 - **ユーザー**
    - 登録画面
 
-     <kbd><img width="200" alt="ユーザー登録画面" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/c40b0325-a464-4ed5-b6a7-344d4569fa51"></kbd>
+     <kbd><img width="200" alt="ユーザー登録画面1" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/c40b0325-a464-4ed5-b6a7-344d4569fa51"></kbd>
+     <kbd><img width="200" alt="ユーザー登録画面2" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/478006aa-e528-4664-b5cf-1c3380eac5ae"></kbd>
      - アイコンに選択した画像をform送信前に表示して、確認できるようにしています。
      - 活動地域はGPS機能、またはワード検索で市区町村を取得して登録できます。
      - 料理の公開範囲を「全体、フレンド、非公開」から選択し登録できます。
