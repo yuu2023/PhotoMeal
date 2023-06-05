@@ -1,66 +1,87 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# ふぉとミール！
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+　料理の写真に店舗情報を紐づけて管理できるWebサービスです。
 
-## About Laravel
+　投稿した料理は他のユーザーと共有することもできます。
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## 本Webサービスの特徴
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- **目的**
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+    - 私には外食した際に、料理の写真を撮る趣味があります。写真を見返したときに、「この料理をもう一度食べたい。でも、どこのお店で食べたのか思い出せない。」ということがありました。この不便を解決するために、写真の位置情報から店舗を調べられるようにしたい。また、食べたときの気持ちを投稿し、残せるようにしたいと思い、本Webサービスを作成しました。
 
-## Learning Laravel
+- **主な機能**
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+    - 写真の位置情報から店舗を取得することができます。
+    - 料理に店舗情報を紐づけ、テキストを添えて投稿することができます。
+    - グリッド表示、詳細表示、マップ表示など様々な視点から料理を確認することができます。
+    - 検索、フィルター、ソート機能があり、料理を探すことができます。
+    - 料理に対して、いいね！やコメントができるなど、ユーザー間で気持ちを共有できます。
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## 機能一覧
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+- **ユーザー**
+   - 登録画面
+     - アイコンに選択した画像をform送信前に表示して、確認できるようにしています。
+     - 活動地域はGPS機能、またはワード検索で市区町村を取得して登録できます。
+     - 料理の公開範囲を「全体、フレンド、非公開」から選択し登録できます。
+   - アカウント画面
+     - ユーザー情報の編集、削除ができます。
+   - ログイン画面
+   - ハンバーガーメニュー画面
+     - マイページ
+       - ユーザーシングル画面に移行します。(未実装)
+     - アカウント
+       - アカウント画面へ移行します。
+     - ログアウト
+       - ログアウトします。
 
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+- **料理**
+   - 登録画面
+     - 写真に選択した画像をform送信前に画面に表示できるようにしています。
+     - 店舗は写真の位置情報、またはワード検索で取得して登録できます。
+   - 編集画面
+   - 削除画面
+   - コレクション画面
+     - 表示
+       - 料理を一覧表示で確認できます。
+       - 料理の公開範囲外のユーザーには表示されないようにしています。
+     - 検索
+       - 料理のタイトル、紹介文から検索できます。
+       - 投稿者の名前、ユーザーIDから検索できます。
+       - 店舗名、店舗の住所から検索できます。
+     - フィルター
+       - 全て
+         - 全ての料理を表示します。
+       - 自分
+         - 自分の料理を表示します。
+       - フレンド
+         - フレンドの料理を表示します。
+       - お気に入り
+         - お気に入りの料理を表示します。
+       - 活動地域
+         - 自分の活動地域と一致する料理を表示します。
+       - 近くの料理
+         - 現在地から2km圏内の料理を表示します。
+     - ソート
+       - 登録順
+         - 料理の登録順に並び替えます。
+       - いいね！
+         - 料理のいいね！順に並び替えます。
+       - 気まぐれ
+         - ランダムの順番に並び替えます。
+     - 表示方法の切り替え
+       - グリッド表示
+       - 詳細表示
+       - マップ表示
+         - 料理に紐づく店舗の位置情報から、マップ上に料理を表示します。
+   - シングル画面
+     - 表示
+       - 料理の情報を確認できます。
+       - 店舗の情報を確認できます。
+       - 料理の公開範囲外のユーザーには表示されないようにしています。
+     - いいね！機能
+     - お気に入り機能
+     - コメント機能
+       - コメントを投稿できます。
+       - コメントに返信することもできます。
