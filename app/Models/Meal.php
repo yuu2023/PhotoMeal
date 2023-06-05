@@ -111,7 +111,7 @@ class Meal extends Model
                 $query->orderBy('meals.created_at', 'desc');
                 break;
             case 'good';
-                $query->orderBy('gooded_users_count', 'desc');
+                $query->orderBy('gooded_users_count', 'desc')->orderBy('meals.created_at', 'desc');
                 break;
             case 'random';
                 $query->inRandomOrder();
