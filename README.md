@@ -38,9 +38,12 @@
      <kbd><img width="200" alt="ログイン画面" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/49d581ff-d761-4b5e-ac19-9e4dd8c418be"></kbd>
    - ハンバーガーメニュー画面
 
-     <kbd><img width="200" alt="ログイン画面" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/eaaed702-a1bb-4c29-97d2-5685c9518c60"></kbd>
+     <kbd><img width="200" alt="ハンバーガーメニュー" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/eaaed702-a1bb-4c29-97d2-5685c9518c60"></kbd>
 - **料理**
    - 登録画面
+     
+     <kbd><img width="200" alt="料理登録画面" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/690b5cfe-b7e4-4387-9308-fd459b8d66b8"></kbd>
+     <kbd><img width="200" alt="料理登録画面" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/56b4e44a-2d9b-476a-9024-c948b37110f1"></kbd>
      - 写真に選択した画像をform送信前に画面に表示できるようにしています。
      - 店舗は写真の位置情報、またはワード検索で取得して登録できます。
    - 編集画面
