@@ -135,7 +135,7 @@ class Map {
                     if(j % 3 === 0) {
                         code += '<div style="display: flex; width: ' + flexWidth + 'px;">';
                     }
-                    code += '<a href="' + meals[i][j].link + '"><img src="' + meals[i][j].img + '" alt="料理" style="width: ' + iconWidth + 'px; height: ' + iconHeight + 'px; object-fit: cover;"></a>';
+                    code += '<a href="' + meals[i][j].link + '"><img src="' + meals[i][j].img + '" alt="料理" title="' + meals[i][j].title + '" style="width: ' + iconWidth + 'px; height: ' + iconHeight + 'px; object-fit: cover;"></a>';
                     if(j % 3 === 2) {
                         code += '</div>';
                     }
