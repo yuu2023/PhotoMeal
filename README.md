@@ -29,6 +29,10 @@
      - 活動地域はGPS機能、またはワード検索で市区町村を取得して登録できます。
      - 料理の公開範囲を「全体、フレンド、非公開」から選択し登録できます。
    - アカウント画面
+
+     <kbd><img width="200" alt="アカウント画面1" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/c2da8c42-e9c1-4001-bc79-9ba4631a1c5c"></kbd>
+     <kbd><img width="200" alt="アカウント画面2" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/360afada-849c-4838-b640-62a3f37e1920"></kbd>
+     <kbd><img width="200" alt="アカウント画面3" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/1e221953-1a69-4efb-a500-aa4c76a83c34"></kbd>
      - ユーザー情報の編集、削除ができます。
    - ログイン画面
    - ハンバーガーメニュー画面
