@@ -33,20 +33,12 @@
      <kbd><img width="200" alt="アカウント画面1" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/c2da8c42-e9c1-4001-bc79-9ba4631a1c5c"></kbd>
      <kbd><img width="200" alt="アカウント画面2" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/360afada-849c-4838-b640-62a3f37e1920"></kbd>
      <kbd><img width="200" alt="アカウント画面3" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/1e221953-1a69-4efb-a500-aa4c76a83c34"></kbd>
-     - ユーザー情報の編集、削除ができます。
    - ログイン画面
 
      <kbd><img width="200" alt="ログイン画面" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/49d581ff-d761-4b5e-ac19-9e4dd8c418be"></kbd>
    - ハンバーガーメニュー画面
 
      <kbd><img width="200" alt="ログイン画面" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/eaaed702-a1bb-4c29-97d2-5685c9518c60"></kbd>
-     - マイページ
-       - ユーザーシングル画面に移行します。(未実装)
-     - アカウント
-       - アカウント画面へ移行します。
-     - ログアウト
-       - ログアウトします。
-
 - **料理**
    - 登録画面
      - 写真に選択した画像をform送信前に画面に表示できるようにしています。
