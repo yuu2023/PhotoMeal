@@ -44,7 +44,7 @@
      
      <kbd><img width="200" alt="料理登録画面" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/690b5cfe-b7e4-4387-9308-fd459b8d66b8"></kbd>
      <kbd><img width="200" alt="料理登録画面" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/56b4e44a-2d9b-476a-9024-c948b37110f1"></kbd>
-     - 写真に選択した画像をform送信前に画面に表示できるようにしています。
+     - 写真に選択した画像をform送信前に画面に表示して、確認できるようにしています。
      - 店舗は写真の位置情報、またはワード検索で取得して登録できます。
    - 編集画面
    - 削除画面
