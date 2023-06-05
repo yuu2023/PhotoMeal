@@ -1,7 +1,15 @@
 # ふぉとミール！
+    料理の写真に店舗情報を紐づけて管理できるWebサービスです。
+    投稿した料理は他のユーザーと共有することもできます。
 
-
-## About Laravel
+## 作成の目的
+    私は外食した際に、料理の写真を撮る趣味があります。
+    その写真を見返したときに、「この料理をもう一度食べたい。でも、どこのお店で食べたのか思い出せない。」ということがよくありました。
+    この不便を解決するために、本Webサービスを作成しました。
+    
+## 本Webサービスの特徴
+    
+    
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
