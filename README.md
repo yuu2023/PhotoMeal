@@ -42,11 +42,14 @@
 - **料理**
    - 登録画面
      
-     <kbd><img width="200" alt="料理登録画面" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/690b5cfe-b7e4-4387-9308-fd459b8d66b8"></kbd>
-     <kbd><img width="200" alt="料理登録画面" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/56b4e44a-2d9b-476a-9024-c948b37110f1"></kbd>
+     <kbd><img width="200" alt="料理登録画面1" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/f0c8d629-3d22-49f7-8aa1-d0d0d531feb2"></kbd>
+     <kbd><img width="200" alt="料理登録画面2" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/207cebf4-eb30-4b13-b4ac-ebfee323524b"></kbd>
      - 写真に選択した画像をform送信前に画面に表示して、確認できるようにしています。
      - 店舗は写真の位置情報、またはワード検索で取得して登録できます。
    - 編集画面
+
+     <kbd><img width="200" alt="料理登録画面1" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/5b6e8ee6-abb1-4e61-8bf6-202908f4151c"></kbd>
+     <kbd><img width="200" alt="料理登録画面2" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/8e483d51-d841-4a0e-a30a-237df47db524"></kbd>
    - 削除画面
    - コレクション画面
      - 表示
