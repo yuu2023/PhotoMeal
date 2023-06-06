@@ -160,3 +160,28 @@
        オーナーとは本サービスを利用するユーザーのことです。
        
        料理やメニューを作成できることから、お店のオーナーになるイメージで命名しました。
+       
+       - コレクション画面
+
+         <kbd><img width="200" alt="オーナーコレクション画面" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/d0dfeb71-6d26-4783-b6e6-02fc00a2388f"></kbd>
+
+       - シングル画面
+
+         <kbd><img width="200" alt="オーナーシングル画面1" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/ae55710c-a8cc-4d45-a838-9da0017b05e7"></kbd>
+         <kbd><img width="200" alt="オーナーシングル画面2" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/63149a96-391c-426a-976e-9f1b72ff5774"></kbd>
+         <kbd><img width="200" alt="オーナーシングル画面3" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/c501d0b8-6ca1-4f6c-8a6a-4ebd7063cb1a"></kbd>
+
+   - **ランキング**
+   
+       いいね！の数のランキングです。
+       
+       ユーザーのモチベーションを上げる要素の一つとして作成します。
+       
+       - 料理ランキング画面
+
+         <kbd><img width="200" alt="料理ランキング画面1" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/57d4d950-0579-4a31-9aec-a9ac8b756ab6"></kbd>
+         <kbd><img width="200" alt="料理ランキング画面2" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/41149840-6a52-41c3-82e1-a8eb9569bd99"></kbd>
+
+       - メニューランキング画面
+
+         <kbd><img width="200" alt="メニューランキング画面" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/5c989af7-6fcf-446f-a761-3f440a88c60c"></kbd>
