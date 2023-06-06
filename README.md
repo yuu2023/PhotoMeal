@@ -26,9 +26,7 @@
 
 - **ユーザー**
 
-　  本サービスを利用するためにアカウント登録をすることができます。
-
-   - 登録画面
+    - 登録画面
 
     <kbd><img width="200" alt="ユーザー登録画面1" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/c40b0325-a464-4ed5-b6a7-344d4569fa51"></kbd>
     <kbd><img width="200" alt="ユーザー登録画面2" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/478006aa-e528-4664-b5cf-1c3380eac5ae"></kbd>
