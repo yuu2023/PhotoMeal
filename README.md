@@ -147,3 +147,9 @@
          <kbd><img width="200" alt="メニューシングル画面1" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/dd3749ad-0d89-4fdc-a2df-16c3f1d56d31"></kbd>
          <kbd><img width="200" alt="メニューシングル画面2" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/5446f5b9-746f-482c-bc81-2e775073965e"></kbd>
          <kbd><img width="200" alt="メニューシングル画面3" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/6eedd0b9-051e-4a54-b48f-ddacb3bdf35b"></kbd>
+
+   - **オーナー**
+   
+       オーナーとは本サービスを利用するユーザーのことです。
+       
+       料理やメニューを作成できることから、お店のオーナーになるイメージで命名しました。
