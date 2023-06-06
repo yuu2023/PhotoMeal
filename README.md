@@ -190,7 +190,7 @@
 
 　フロントエンド： HTML・CSS(SCSS), JavaScript, Bootstrap5, Tailwind CSS(3.3.2)
  
-　外部API: グルメサーチAPI, Yahoo!ジオコーダAPIYahoo!リバースジオコーダAPI
+　外部API: グルメサーチAPI, Yahoo!ジオコーダAPI, Yahoo!リバースジオコーダAPI
  
 　JavaScriptライブラリ： Leaflet
  
