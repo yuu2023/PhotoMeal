@@ -1,8 +1,4 @@
 # ふぉとミール！
-
-  <kbd><img width="200" alt="料理シングル画面" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/df184f54-c314-4720-9e9f-7b0b915f6ee9"></kbd>
-  <kbd><img width="200" alt="料理シングル画面" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/a49f2c57-cf76-4e62-84d1-b503645ad5fa"></kbd>
-  <kbd><img width="200" alt="コメントシングル画面" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/7969ec17-5abd-4859-a91d-f52d8cf322c1"></kbd>
   
   <kbd><img width="200" alt="料理コレクション画面グリッド表示" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/9ac0baeb-05d0-48e4-b008-475180fdaefb"></kbd>
   <kbd><img width="200" alt="料理コレクション画面詳細表示" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/1eb9c9dc-ead8-41d4-8a36-522c067cbd9d"></kbd>
