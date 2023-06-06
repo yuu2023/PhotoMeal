@@ -48,10 +48,16 @@
      - 店舗は写真の位置情報、またはワード検索で取得して登録できます。
    - 編集画面
 
-     <kbd><img width="200" alt="料理登録画面1" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/5b6e8ee6-abb1-4e61-8bf6-202908f4151c"></kbd>
-     <kbd><img width="200" alt="料理登録画面2" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/8e483d51-d841-4a0e-a30a-237df47db524"></kbd>
+     <kbd><img width="200" alt="料理編集画面1" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/5b6e8ee6-abb1-4e61-8bf6-202908f4151c"></kbd>
+     <kbd><img width="200" alt="料理編集画面2" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/8e483d51-d841-4a0e-a30a-237df47db524"></kbd>
    - 削除画面
+
+     <kbd><img width="200" alt="料理削除画面2" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/238840fe-766e-4e5a-864e-575038f61d03"></kbd>
    - コレクション画面
+
+     <kbd><img width="200" alt="料理コレクション画面グリッド表示" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/9ac0baeb-05d0-48e4-b008-475180fdaefb"></kbd>
+     <kbd><img width="200" alt="料理コレクション画面詳細表示" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/1eb9c9dc-ead8-41d4-8a36-522c067cbd9d"></kbd>
+     <kbd><img width="200" alt="料理コレクション画面マップ表示" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/192c2636-c836-42c6-94be-13fcb4053b30"></kbd>
      - 表示
        - 料理を一覧表示で確認できます。
        - 料理の公開範囲外のユーザーには表示されないようにしています。
