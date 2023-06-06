@@ -4,7 +4,7 @@
             @csrf
             @method('delete')
 
-            <h2>コメントを削除</h2>
+            <h2>返信を削除</h2>
             <p class="p-reply-delete-modal__form__description">この返信を削除します。</p>
             <div class="p-reply-delete-modal__form__buttons">
                 <x-secondary-button x-on:click="$dispatch('close')">
