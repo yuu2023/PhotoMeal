@@ -104,6 +104,7 @@
 
       <kbd><img width="200" alt="料理シングル画面" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/df184f54-c314-4720-9e9f-7b0b915f6ee9"></kbd>
       <kbd><img width="200" alt="料理シングル画面" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/a49f2c57-cf76-4e62-84d1-b503645ad5fa"></kbd>
+      
       - 表示
         - 料理の情報を確認できます。
         - 店舗の情報を確認できます。
