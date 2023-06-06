@@ -100,18 +100,7 @@
         - 詳細表示
         - マップ表示
           - 料理に紐づく店舗の位置情報から、マップ上に料理を表示します。
-    - シングル画面
-
-      <kbd><img width="200" alt="料理シングル画面" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/df184f54-c314-4720-9e9f-7b0b915f6ee9"></kbd>
-      <kbd><img width="200" alt="料理シングル画面" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/a49f2c57-cf76-4e62-84d1-b503645ad5fa"></kbd>
-      - 表示
-        - 料理の情報を確認できます。
-        - 店舗の情報を確認できます。
-        - 料理の公開範囲外のユーザーには表示されないようにしています。
-      - いいね！機能
-      - お気に入り機能
-      - コメント機能
-     
+    - シングル画面     
         <kbd><img width="200" alt="コメントシングル画面" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/7969ec17-5abd-4859-a91d-f52d8cf322c1"></kbd>
         - 料理に対してコメントを投稿できます。
         - コメントに返信することもできます。
