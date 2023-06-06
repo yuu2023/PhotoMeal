@@ -57,7 +57,7 @@
 
      <kbd><img width="200" alt="料理コレクション画面グリッド表示" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/9ac0baeb-05d0-48e4-b008-475180fdaefb"></kbd>
      <kbd><img width="200" alt="料理コレクション画面詳細表示" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/1eb9c9dc-ead8-41d4-8a36-522c067cbd9d"></kbd>
-     <kbd><img width="200" alt="料理コレクション画面マップ表示" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/192c2636-c836-42c6-94be-13fcb4053b30"></kbd>
+     <kbd><img width="200" alt="料理コレクション画面マップ表示" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/3e8040cc-ec59-450b-963e-80766081dac0"></kbd>
      - 表示
        - 料理を一覧表示で確認できます。
        - 料理の公開範囲外のユーザーには表示されないようにしています。
