@@ -25,6 +25,9 @@
 ## 機能一覧
 
 - **ユーザー**
+
+　本サービスを利用するためにアカウント登録をすることができます。
+
    - 登録画面
 
      <kbd><img width="200" alt="ユーザー登録画面1" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/c40b0325-a464-4ed5-b6a7-344d4569fa51"></kbd>
@@ -44,6 +47,9 @@
 
      <kbd><img width="200" alt="ハンバーガーメニュー" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/eaaed702-a1bb-4c29-97d2-5685c9518c60"></kbd>
 - **料理**
+
+　食べた料理の写真とお店の情報を紐づけて投稿することができます。
+
    - 登録画面
      
      <kbd><img width="200" alt="料理登録画面1" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/f0c8d629-3d22-49f7-8aa1-d0d0d531feb2"></kbd>
