@@ -49,73 +49,73 @@
       
 - **料理**
 
-　食べた料理の写真とお店の情報を紐づけて投稿することができます。
+    食べた料理の写真に店舗情報を紐づけて投稿することができます。
 
-   - 登録画面
+    - 登録画面
      
-     <kbd><img width="200" alt="料理登録画面1" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/f0c8d629-3d22-49f7-8aa1-d0d0d531feb2"></kbd>
-     <kbd><img width="200" alt="料理登録画面2" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/207cebf4-eb30-4b13-b4ac-ebfee323524b"></kbd>
-     - 写真に選択した画像をform送信前に画面に表示して、確認できるようにしています。
-     - 店舗は写真の位置情報、またはワード検索で取得して登録できます。
-   - 編集画面
+      <kbd><img width="200" alt="料理登録画面1" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/f0c8d629-3d22-49f7-8aa1-d0d0d531feb2"></kbd>
+      <kbd><img width="200" alt="料理登録画面2" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/207cebf4-eb30-4b13-b4ac-ebfee323524b"></kbd>
+      - 写真に選択した画像をform送信前に画面に表示して、確認できるようにしています。
+      - 店舗は写真の位置情報、またはワード検索で取得して登録できます。
+    - 編集画面
 
-     <kbd><img width="200" alt="料理編集画面1" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/5b6e8ee6-abb1-4e61-8bf6-202908f4151c"></kbd>
-     <kbd><img width="200" alt="料理編集画面2" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/8e483d51-d841-4a0e-a30a-237df47db524"></kbd>
-   - 削除画面
+      <kbd><img width="200" alt="料理編集画面1" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/5b6e8ee6-abb1-4e61-8bf6-202908f4151c"></kbd>
+      <kbd><img width="200" alt="料理編集画面2" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/8e483d51-d841-4a0e-a30a-237df47db524"></kbd>
+    - 削除画面
 
-     <kbd><img width="200" alt="料理削除画面2" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/238840fe-766e-4e5a-864e-575038f61d03"></kbd>
-   - コレクション画面
+      <kbd><img width="200" alt="料理削除画面2" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/238840fe-766e-4e5a-864e-575038f61d03"></kbd>
+    - コレクション画面
 
-     <kbd><img width="200" alt="料理コレクション画面グリッド表示" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/9ac0baeb-05d0-48e4-b008-475180fdaefb"></kbd>
-     <kbd><img width="200" alt="料理コレクション画面詳細表示" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/1eb9c9dc-ead8-41d4-8a36-522c067cbd9d"></kbd>
-     <kbd><img width="200" alt="料理コレクション画面マップ表示" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/3e8040cc-ec59-450b-963e-80766081dac0"></kbd>
-     - 表示
-       - 料理を一覧表示で確認できます。
-       - 料理の公開範囲外のユーザーには表示されないようにしています。
-     - 検索
-       - 料理のタイトル、紹介文から検索できます。
-       - 投稿者の名前、ユーザーIDから検索できます。
-       - 店舗名、店舗の住所から検索できます。
-     - フィルター
-       - 全て
-         - 全ての料理を表示します。
-       - 自分
-         - 自分の料理を表示します。
-       - フレンド
-         - フレンドの料理を表示します。
-       - お気に入り
-         - お気に入りの料理を表示します。
-       - 活動地域
-         - 自分の活動地域と一致する料理を表示します。
-       - 近くの料理
-         - 現在地から2km圏内の料理を表示します。
-     - ソート
-       - 登録順
-         - 料理の登録順に並び替えます。
-       - いいね！
-         - 料理のいいね！順に並び替えます。
-       - 気まぐれ
-         - ランダムの順番に並び替えます。
-     - 表示方法の切り替え
-       - グリッド表示
-       - 詳細表示
-       - マップ表示
-         - 料理に紐づく店舗の位置情報から、マップ上に料理を表示します。
-   - シングル画面
+      <kbd><img width="200" alt="料理コレクション画面グリッド表示" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/9ac0baeb-05d0-48e4-b008-475180fdaefb"></kbd>
+      <kbd><img width="200" alt="料理コレクション画面詳細表示" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/1eb9c9dc-ead8-41d4-8a36-522c067cbd9d"></kbd>
+      <kbd><img width="200" alt="料理コレクション画面マップ表示" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/3e8040cc-ec59-450b-963e-80766081dac0"></kbd>
+      - 表示
+        - 料理を一覧表示で確認できます。
+        - 料理の公開範囲外のユーザーには表示されないようにしています。
+      - 検索
+        - 料理のタイトル、紹介文から検索できます。
+        - 投稿者の名前、ユーザーIDから検索できます。
+        - 店舗名、店舗の住所から検索できます。
+      - フィルター
+        - 全て
+          - 全ての料理を表示します。
+        - 自分
+          - 自分の料理を表示します。
+        - フレンド
+          - フレンドの料理を表示します。
+        - お気に入り
+          - お気に入りの料理を表示します。
+        - 活動地域
+          - 自分の活動地域と一致する料理を表示します。
+        - 近くの料理
+          - 現在地から2km圏内の料理を表示します。
+      - ソート
+        - 登録順
+          - 料理の登録順に並び替えます。
+        - いいね！
+          - 料理のいいね！順に並び替えます。
+        - 気まぐれ
+          - ランダムの順番に並び替えます。
+      - 表示方法の切り替え
+        - グリッド表示
+        - 詳細表示
+        - マップ表示
+          - 料理に紐づく店舗の位置情報から、マップ上に料理を表示します。
+    - シングル画面
 
-     <kbd><img width="200" alt="料理シングル画面" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/df184f54-c314-4720-9e9f-7b0b915f6ee9"></kbd>
-     <kbd><img width="200" alt="料理シングル画面" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/a49f2c57-cf76-4e62-84d1-b503645ad5fa"></kbd>
-     - 表示
-       - 料理の情報を確認できます。
-       - 店舗の情報を確認できます。
-       - 料理の公開範囲外のユーザーには表示されないようにしています。
-     - いいね！機能
-     - お気に入り機能
-     - コメント機能
+      <kbd><img width="200" alt="料理シングル画面" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/df184f54-c314-4720-9e9f-7b0b915f6ee9"></kbd>
+      <kbd><img width="200" alt="料理シングル画面" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/a49f2c57-cf76-4e62-84d1-b503645ad5fa"></kbd>
+      - 表示
+        - 料理の情報を確認できます。
+        - 店舗の情報を確認できます。
+        - 料理の公開範囲外のユーザーには表示されないようにしています。
+      - いいね！機能
+      - お気に入り機能
+      - コメント機能
      
-       <kbd><img width="200" alt="コメントシングル画面" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/7969ec17-5abd-4859-a91d-f52d8cf322c1"></kbd>
-       - 料理に対してコメントを投稿できます。
-       - コメントに返信することもできます。
+        <kbd><img width="200" alt="コメントシングル画面" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/7969ec17-5abd-4859-a91d-f52d8cf322c1"></kbd>
+        - 料理に対してコメントを投稿できます。
+        - コメントに返信することもできます。
 
 ## 未実装機能
 
