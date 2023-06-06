@@ -186,9 +186,13 @@
 
 ## 実装環境
 
-　バックエンド  ： PHP(8.2.5) , Laravel(10.9.0) , MySQL, グルメサーチAPI, Yahoo!ジオコーダAPI、Yahoo!リバースジオコーダAPI
+　バックエンド： PHP(8.2.5) , Laravel(10.9.0) , MySQL
 
-　フロントエンド： HTML・CSS(SCSS), JavaScript, Bootstrap5, Tailwind CSS(3.3.2), Leaflet
+　フロントエンド： HTML・CSS(SCSS), JavaScript, Bootstrap5, Tailwind CSS(3.3.2)
+ 
+　外部API: グルメサーチAPI, Yahoo!ジオコーダAPI、Yahoo!リバースジオコーダAPI
+ 
+　JavaScriptライブラリ： Leaflet
  
 ## ユーザー利用環境
 
