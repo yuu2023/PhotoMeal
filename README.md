@@ -109,3 +109,41 @@
        <kbd><img width="200" alt="コメントシングル画面" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/7969ec17-5abd-4859-a91d-f52d8cf322c1"></kbd>
        - 料理に対してコメントを投稿できます。
        - コメントに返信することもできます。
+
+## 未実装機能
+
+　本サービスは2023年月上旬から開発しています。
+ 
+　現在、開発途中であり、以下の機能を追加実装する予定です。 
+
+   - **メニュー**
+     
+       料理をまとめオリジナルのメニュー表を作成できます。
+       
+       - 登録画面
+       
+         <kbd><img width="200" alt="メニュー登録画面" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/584d8d5e-e779-432e-a686-b1a411254aa7"></kbd>
+       
+       - 削除画面
+       
+         <kbd><img width="200" alt="メニュー削除画面" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/3d2b342d-9c52-40fe-80fc-e83f6c876e9f"></kbd>
+
+       - メニューの料理を追加画面
+
+         <kbd><img width="200" alt="メニューの料理を追加画面1" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/18fe3e8e-e5ba-4daa-a4c9-3bbd5c8491dc"></kbd>
+         <kbd><img width="200" alt="メニューの料理を追加画面2" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/98b97a8d-1947-4143-a46a-9d187b48b5ed"></kbd>
+         <kbd><img width="200" alt="メニューの料理を追加画面3" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/499ffae2-6431-475c-b7bf-5349c2cadc5a"></kbd>
+ 
+       - メニューの料理を削除画面
+
+         <kbd><img width="200" alt="メニューの料理を削除画面" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/ade770af-f31b-4c0c-8350-34cb7abe8b1b"></kbd>
+         
+       - コレクション画面
+
+         <kbd><img width="200" alt="メニューコレクション画面" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/22b3ee80-e834-40d6-ac24-fc5abce59619"></kbd>
+
+       - シングル画面
+
+         <kbd><img width="200" alt="メニューシングル画面1" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/dd3749ad-0d89-4fdc-a2df-16c3f1d56d31"></kbd>
+         <kbd><img width="200" alt="メニューシングル画面2" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/5446f5b9-746f-482c-bc81-2e775073965e"></kbd>
+         <kbd><img width="200" alt="メニューシングル画面3" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/6eedd0b9-051e-4a54-b48f-ddacb3bdf35b"></kbd>
