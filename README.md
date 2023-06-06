@@ -28,24 +28,24 @@
 
 　  本サービスを利用するためにアカウント登録をすることができます。
 
-    - 登録画面
+   - 登録画面
 
-      <kbd><img width="200" alt="ユーザー登録画面1" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/c40b0325-a464-4ed5-b6a7-344d4569fa51"></kbd>
-      <kbd><img width="200" alt="ユーザー登録画面2" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/478006aa-e528-4664-b5cf-1c3380eac5ae"></kbd>
-      - アイコンに選択した画像をform送信前に表示して、確認できるようにしています。
-      - 活動地域はGPS機能、またはワード検索で市区町村を取得して登録できます。
-      - 料理の公開範囲を「全体、フレンド、非公開」から選択し登録できます。
-    - アカウント画面
+     <kbd><img width="200" alt="ユーザー登録画面1" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/c40b0325-a464-4ed5-b6a7-344d4569fa51"></kbd>
+     <kbd><img width="200" alt="ユーザー登録画面2" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/478006aa-e528-4664-b5cf-1c3380eac5ae"></kbd>
+     - アイコンに選択した画像をform送信前に表示して、確認できるようにしています。
+     - 活動地域はGPS機能、またはワード検索で市区町村を取得して登録できます。
+     - 料理の公開範囲を「全体、フレンド、非公開」から選択し登録できます。
+   - アカウント画面
 
-      <kbd><img width="200" alt="アカウント画面1" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/c2da8c42-e9c1-4001-bc79-9ba4631a1c5c"></kbd>
-      <kbd><img width="200" alt="アカウント画面2" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/360afada-849c-4838-b640-62a3f37e1920"></kbd>
-      <kbd><img width="200" alt="アカウント画面3" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/1e221953-1a69-4efb-a500-aa4c76a83c34"></kbd>
-    - ログイン画面
+     <kbd><img width="200" alt="アカウント画面1" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/c2da8c42-e9c1-4001-bc79-9ba4631a1c5c"></kbd>
+     <kbd><img width="200" alt="アカウント画面2" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/360afada-849c-4838-b640-62a3f37e1920"></kbd>
+     <kbd><img width="200" alt="アカウント画面3" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/1e221953-1a69-4efb-a500-aa4c76a83c34"></kbd>
+   - ログイン画面
 
-      <kbd><img width="200" alt="ログイン画面" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/49d581ff-d761-4b5e-ac19-9e4dd8c418be"></kbd>
-    - ハンバーガーメニュー画面
+     <kbd><img width="200" alt="ログイン画面" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/49d581ff-d761-4b5e-ac19-9e4dd8c418be"></kbd>
+   - ハンバーガーメニュー画面
 
-      <kbd><img width="200" alt="ハンバーガーメニュー" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/eaaed702-a1bb-4c29-97d2-5685c9518c60"></kbd>
+     <kbd><img width="200" alt="ハンバーガーメニュー" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/eaaed702-a1bb-4c29-97d2-5685c9518c60"></kbd>
       
 - **料理**
 
