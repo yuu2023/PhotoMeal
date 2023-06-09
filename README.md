@@ -8,7 +8,7 @@
   <kbd><img width="200" alt="料理コレクション画面詳細表示" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/1eb9c9dc-ead8-41d4-8a36-522c067cbd9d"></kbd>
   <kbd><img width="200" alt="料理コレクション画面マップ表示" src="https://github.com/yuu2023/PhotoMeal/assets/131323286/3e8040cc-ec59-450b-963e-80766081dac0"></kbd>
   
-  本サービスが実際に動いているところを見ていただきたいと思い、動画を撮影いたしました。
+　本サービスが実際に動いているところを見ていただきたいと思い、動画を撮影いたしました。
  
 　**[こちらのリンクから、ご覧いただけます。](https://youtu.be/4-TptATFG-o)**
 
