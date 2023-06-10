@@ -98,7 +98,7 @@ class Meal extends Model
                 $query->Where('shops.address', 'like', '%'.$requestUser->area.'%');
                 break;
             case 'near';
-                $query->WhereRaw('(6378 * acos(cos(radians('.$validated['latitude'].')) * cos(radians(shops.latitude)) * cos(radians(shops.longitude) - radians('.$validated['longitude'].')) + sin(radians('.$validated['latitude'].')) * sin(radians(shops.latitude)))) < 2');
+                $query->WhereRaw('(6378 * acos(cos(radians(?)) * cos(radians(shops.latitude)) * cos(radians(shops.longitude) - radians(?)) + sin(radians(?)) * sin(radians(shops.latitude)))) < 2', [$validated['latitude'], $validated['longitude'], $validated['latitude']]);
                 break;
             default;
                 break;
